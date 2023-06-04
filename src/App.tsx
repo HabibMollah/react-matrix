@@ -1,5 +1,11 @@
 const App = () => {
-  return <div className="text-blue-500 font-bold">App</div>;
+  return (
+    <canvas
+      id="myCanvas"
+      className="bg-black"
+      width="100%"
+      height="100%"></canvas>
+  );
 };
 
 export default App;
